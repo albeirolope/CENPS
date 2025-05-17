@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../assets/logo.png';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 function Header() {
 const [menuOpen, setMenuOpen] = useState(false);
@@ -15,9 +16,9 @@ return (
         <img src={logo} alt="Logo CENPS" className="header-logo" />
 
         <nav className={`nav-menu ${menuOpen ? 'active' : ''}`}>
-        <a href="#inicio">Inicio</a>
-        <a href="Quienes Somos">Quienes somos?</a>
-        <a href="#cursos">Cursos</a>
+        <Link to="/">Inicio</Link>
+        <Link to="/quienes-somos">¿Quiénes somos?</Link>
+        <Link to="/cursos">Cursos</Link>
         <a href="#capacitaciones">Capacitaciones</a>
         <a href="#contacto">Contacto</a>
         </nav>

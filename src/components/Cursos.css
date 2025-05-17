@@ -1,0 +1,133 @@
+.courses-section {
+padding: 60px 20px;
+background-color: #f4f4f4;
+text-align: center;
+background-repeat: no-repeat;
+background-position: center;
+background-size: 300px;
+}
+
+.courses-container {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.courses-list {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 20px;
+margin-top: 30px;
+align-items: stretch;
+}
+
+
+.course-card {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
+background-color: #fff;
+border-radius: 12px;
+padding: 20px;
+box-shadow: 0 4px 12px rgba(255, 0, 0, 0.15);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+border: 1px solid #ff4d4d1a;
+}
+
+.course-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 16px rgba(255, 0, 0, 0.3);
+}
+
+.course-content {
+flex-grow: 1;
+text-align: left;
+margin-bottom: 15px;
+}
+
+.see-more-btn {
+background-color: #cc0000;
+color: #fff;
+border: none;
+padding: 10px 16px;
+margin-top: 10px;
+border-radius: 8px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.see-more-btn:hover {
+background-color: #2a19c4;
+}
+
+/* Modal */
+.modal-overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.6);
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 999;
+}
+
+.modal-content {
+background: white;
+padding: 30px;
+border-radius: 12px;
+max-width: 500px;
+width: 90%;
+text-align: left;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+animation: fadeIn 0.3s ease;
+}
+
+.close-btn {
+margin-top: 20px;
+padding: 8px 16px;
+background-color: #d11a2a;
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+
+.close-btn:hover {
+background-color: #a71320;
+}
+
+@keyframes fadeIn {
+from {
+opacity: 0;
+transform: scale(0.95);
+}
+to {
+opacity: 1;
+transform: scale(1);
+}
+}
+.course-info {
+display: flex;
+align-items: center;
+gap: 4px;
+margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+.courses-list {
+grid-template-columns: 1fr;
+padding: 0 10px;
+}
+
+.course-card {
+padding: 16px;
+}
+
+.modal-content {
+max-width: 90%;
+padding: 20px;
+}
+}
