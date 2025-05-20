@@ -1,0 +1,142 @@
+.contacto-modern {
+    background: linear-gradient(120deg, #e0f7ff, #ffffff);
+    padding: 5rem 1rem;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card-contacto {
+    background: white;
+    border-radius: 20px;
+    padding: 3rem;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeInUp 1s ease-out;
+}
+
+.card-contacto h2 {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 0.5rem;
+}
+
+.card-contacto p {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.info-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.info-box,
+.redes-box {
+    flex: 1 1 300px;
+    text-align: center;
+}
+
+.info-box h3,
+.redes-box h3 {
+    font-size: 1.2rem;
+    color: #004080;
+    margin-bottom: 0.5rem;
+}
+
+.info-box a,
+.redes-box a {
+    color: #0072c6;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.info-box a:hover,
+.redes-box a:hover {
+    text-decoration: underline;
+}
+
+/* Redes sociales */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0 2rem;
+}
+
+.social-icons a {
+    background-color: #f1f1f1;
+    padding: 0.6rem;
+    border-radius: 50%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    background-color: #d9eaff;
+}
+
+.social-icons img {
+    width: 28px;
+    height: 28px;
+    filter: invert(20%) sepia(90%) saturate(1000%) hue-rotate(200deg);
+}
+
+/* Botón WhatsApp con animación */
+.whatsapp-pulse {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 0.8rem 1.8rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    animation: pulse 2s infinite;
+}
+
+.whatsapp-pulse:hover {
+    background-color: #1ebe5d;
+}
+
+/* Animaciones */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+    }
+
+    70% {
+        box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+    }
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .card-contacto {
+        padding: 2rem;
+    }
+}
