@@ -44,7 +44,7 @@ transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .nav-menu a:hover {
-color: #25D366; /* verde WhatsApp */
+color: #c9f409; /* verde WhatsApp */
 transform: translateY(-2px);
 cursor: pointer;
 text-decoration: underline;

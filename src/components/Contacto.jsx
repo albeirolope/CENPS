@@ -12,7 +12,7 @@ const Contacto = () => {
                     <div className="info-grid">
                         <div className="info-box">
                             <h3>📞 Teléfono</h3>
-                            <p><a href="tel:+573001234567">+57 300 123 4567</a></p>
+                            <p><a href="tel:+573022179565">+57 302 217 9565</a></p>
                             <h3>📧 Correo</h3>
                             <p><a href="mailto:info@cenps.com">info@cenps.com</a></p>
                         </div>
@@ -20,7 +20,7 @@ const Contacto = () => {
                         <div className="redes-box">
                             <h3>🌐 Redes Sociales</h3>
                             <div className="social-icons">
-                                <a href="https://instagram.com/cenps" target="_blank" rel="noreferrer" title="Instagram">
+                                <a href="https://www.instagram.com/cenpssantamarta?igsh=MWxjdDQzYnEzMzVvMA%3D%3D" target="_blank" rel="noreferrer" title="Instagram">
                                     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram" />
                                 </a>
                                 <a href="https://facebook.com/cenps" target="_blank" rel="noreferrer" title="Facebook">
@@ -32,7 +32,7 @@ const Contacto = () => {
                             </div>
 
                             <a
-                                href="https://wa.me/573001234567?text=Hola%2C%20estoy%20interesado%20en%20los%20cursos%20de%20CENPS"
+                                href="https://wa.me/3022179565?text=Hola%2C%20estoy%20interesado%20en%20los%20cursos%20del%20CENPS%20podrías%20darme%20más%20información%3F"
                                 className="whatsapp-pulse"
                                 target="_blank"
                                 rel="noreferrer"

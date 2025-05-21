@@ -28,7 +28,7 @@ const galleryItems = [
 return (
 <section className="about-section" id="quienes-somos">
     <div className="about-container">
-    <motion.h2
+    <motion.h2 
         initial={{ opacity: 0, y: -40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
@@ -52,8 +52,8 @@ return (
     <div className="about-mvv">
         <motion.div
         className="mvv-card"
-        whileHover={{ scale: 1.05 }}
-        transition={{ type: 'spring', stiffness: 200 }}
+        whileHover={{ scale: 1.05 }} 
+        transition={{ type: 'spring', stiffness: 200 }} 
         >
         <FaHeartbeat className="mvv-icon" />
         <h3>Misión</h3>

@@ -88,7 +88,7 @@ return (
     </div>
 
     <div className="footer">
-        <p>© 2023 Todos los derechos reservados.</p>
+        <p>© 2025 Todos los derechos reservados.</p>
         <p>Desarrollado por <a href="https://www.linkedin.com/in/López/" target="_blank" rel="noopener noreferrer">LópezA</a></p>
     </div>
 </section>

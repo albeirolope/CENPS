@@ -19,7 +19,7 @@ function Header() {
                     <Link to="/">Inicio</Link>
                     <Link to="/quienes-somos">¿Quiénes somos?</Link>
                     <Link to="/cursos">Cursos</Link>
-                    <a href="#capacitaciones">Capacitaciones</a>
+                    <Link to="/capacitaciones-simulacros">Capacitaciones y Simulacros</Link>
                     <Link to="/contacto">Contacto</Link>
                 </nav>
 
